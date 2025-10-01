@@ -1,0 +1,11 @@
+# Railway 배포 설정 파일
+# Railway가 자동으로 감지하여 사용합니다
+
+# Python 런타임 버전
+python-version = "3.12"
+
+# 시작 명령어 (Gunicorn 사용)
+start-command = "gunicorn --bind 0.0.0.0:$PORT app:app"
+
+# 빌드 명령어
+build-command = "pip install -r requirements.txt"

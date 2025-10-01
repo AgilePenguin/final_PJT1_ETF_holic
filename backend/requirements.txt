@@ -1,0 +1,7 @@
+flask
+flask-cors
+yfinance
+google-generativeai
+python-dotenv
+pandas
+gunicorn

@@ -1,0 +1,7 @@
+### ETF 비교 분석 API 테스트
+POST http://127.0.0.1:5000/api/etf/analyze
+Content-Type: application/json
+
+{
+  "tickers": ["SPY", "QQQ"]
+}
